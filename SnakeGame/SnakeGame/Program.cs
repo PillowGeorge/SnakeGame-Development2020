@@ -81,6 +81,8 @@ namespace SnakeGame
             ConsoleKeyInfo consoleKey; // holds whatever key is pressed
 
             // FOOD Display
+			// Draw the food at random position 
+			// Changes the position if the food is at the same position with obstacles/snake.
             Random random = new Random();
             Position food;
             do
