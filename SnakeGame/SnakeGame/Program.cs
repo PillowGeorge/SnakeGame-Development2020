@@ -194,6 +194,8 @@ namespace SnakeGame
                     return;
                 }
 
+                // Winning requirement
+                // When player gain the score specified, the game is cleared
                 if (score == 1000 )
                 {
                     Console.SetCursorPosition(36,12);
