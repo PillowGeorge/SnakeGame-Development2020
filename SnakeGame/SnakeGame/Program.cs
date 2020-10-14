@@ -7,6 +7,7 @@ using System.Threading;
 
 namespace SnakeGame
 {
+    // Structure position to enable arrays for obstacles and foods
     struct Position
     {
         public int row;
