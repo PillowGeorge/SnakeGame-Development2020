@@ -175,7 +175,8 @@ namespace SnakeGame
                 if (snakeNewHead.row < 2) snakeNewHead.row = consoleHeightLimit - 1;
                 if (snakeNewHead.row >= consoleHeightLimit) snakeNewHead.row = 2;
                 if (snakeNewHead.col >= consoleWidthLimit) snakeNewHead.col = 0;
-
+                // End the game if the snake make contact with the obstacle or itself.
+				// Only 1 life is given for the player.
                 if (snakeElements.Contains(snakeNewHead) || obstacles.Contains(snakeNewHead))
                 {
                     Console.SetCursorPosition(36,12);
