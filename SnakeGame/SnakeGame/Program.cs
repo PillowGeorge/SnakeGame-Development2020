@@ -110,6 +110,8 @@ namespace SnakeGame
                 Console.WriteLine("Arrows move up/down/right/left. Press 'esc' quit.");
                 Console.SetCursorPosition(x, y);
                 Console.ForegroundColor = cc;
+                // Display the score on the top corner when the game is running
+                // Calculate how the scores are being counted
                 int score = (snakeElements.Count - 4) * 100;
                 if (score < 0) score = 0;
                 score = Math.Max(score, 0);
@@ -176,6 +178,7 @@ namespace SnakeGame
                 if (snakeNewHead.row < 2) snakeNewHead.row = consoleHeightLimit - 1;
                 if (snakeNewHead.row >= consoleHeightLimit) snakeNewHead.row = 2;
                 if (snakeNewHead.col >= consoleWidthLimit) snakeNewHead.col = 0;
+
                 // End the game if the snake make contact with the obstacle or itself.
 				// Only 1 life is given for the player.
                 if (snakeElements.Contains(snakeNewHead) || obstacles.Contains(snakeNewHead))
