@@ -246,7 +246,7 @@ namespace SnakeGame
                     Console.SetCursorPosition(last.col, last.row);
                     Console.Write(" ");
                 }
-
+                    // Change location of food after specific time/interval
                 if (Environment.TickCount - lastFoodTime >= foodDissapearTime)
                 {
                     Console.SetCursorPosition(food.col, food.row);
