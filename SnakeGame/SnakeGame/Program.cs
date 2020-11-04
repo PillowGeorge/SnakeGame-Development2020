@@ -53,6 +53,24 @@ namespace SnakeGame
             Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.Clear();
 
+                //border
+			    int border_x = 79;
+			    int border_y = 24;
+                while(border_x > 0){
+				    Console.SetCursorPosition(border_x, 1);
+				    Console.WriteLine("0");
+                    Console.SetCursorPosition(border_x, 24);
+				    Console.WriteLine("0");
+			    	border_x -= 1;
+			    }
+			        while(border_y > 0){
+			    	Console.SetCursorPosition(0, border_y);
+				    Console.WriteLine("0");
+                    Console.SetCursorPosition(79, border_y);
+				    Console.WriteLine("0");
+				    border_y -= 1;
+			    }
+          
             // Obstacles
             List<Position> obstacles = new List<Position>()
             {
@@ -94,7 +112,7 @@ namespace SnakeGame
             }
             while (snakeElements.Contains(food) || obstacles.Contains(food));
             Console.SetCursorPosition(food.col, food.row);
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.Write("F");
 
             
@@ -106,24 +124,8 @@ namespace SnakeGame
             {
                 // print directions at top, then restore position
                 // save then restore current color
-                
-                //border
-			    int border_x = 79;
-			    int border_y = 24;
-                while(border_x > 0){
-				    Console.SetCursorPosition(border_x, 1);
-				    Console.WriteLine("0");
-                    Console.SetCursorPosition(border_x, 24);
-				    Console.WriteLine("0");
-			    	border_x -= 1;
-			    }
-			        while(border_y > 0){
-			    	Console.SetCursorPosition(0, border_y);
-				    Console.WriteLine("0");
-                    Console.SetCursorPosition(79, border_y);
-				    Console.WriteLine("0");
-				    border_y -= 1;
-			    }
+
+
 
             
 
@@ -246,7 +248,7 @@ namespace SnakeGame
                     while (snakeElements.Contains(food) || obstacles.Contains(food));
                     lastFoodTime = Environment.TickCount;
                     Console.SetCursorPosition(food.col, food.row);
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Black;
                     Console.Write("F");
 
                     Position obstacle = new Position();
@@ -282,7 +284,7 @@ namespace SnakeGame
                     lastFoodTime = Environment.TickCount;
                 }
                 Console.SetCursorPosition(food.col, food.row);
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
                 Console.Write("F");
 
                 // pause to allow eyeballs to keep up
