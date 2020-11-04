@@ -46,6 +46,8 @@ namespace SnakeGame
             int lastFoodTime = 0;
             int foodDissapearTime = 8000;
             lastFoodTime = Environment.TickCount;
+			
+
 
             // clear to color
             Console.BackgroundColor = ConsoleColor.DarkGray;
@@ -104,6 +106,27 @@ namespace SnakeGame
             {
                 // print directions at top, then restore position
                 // save then restore current color
+                
+                //border
+			    int border_x = 79;
+			    int border_y = 24;
+                while(border_x > 0){
+				    Console.SetCursorPosition(border_x, 1);
+				    Console.WriteLine("0");
+                    Console.SetCursorPosition(border_x, 24);
+				    Console.WriteLine("0");
+			    	border_x -= 1;
+			    }
+			        while(border_y > 0){
+			    	Console.SetCursorPosition(0, border_y);
+				    Console.WriteLine("0");
+                    Console.SetCursorPosition(79, border_y);
+				    Console.WriteLine("0");
+				    border_y -= 1;
+			    }
+
+            
+
                 ConsoleColor cc = Console.ForegroundColor;
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.SetCursorPosition(0, 0);

@@ -37,3 +37,16 @@ D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\net
 D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.dll
 D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.pdb
 D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\SnakeGame.exe
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\SnakeGame.deps.json
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.json
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.dev.json
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\SnakeGame.dll
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\SnakeGame.pdb
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.csprojAssemblyReference.cache
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfo.cs
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.dll
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.pdb
+C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache
