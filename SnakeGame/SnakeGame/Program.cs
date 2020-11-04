@@ -7,6 +7,7 @@ using System.Threading;
 using System.IO;
 
 
+
 namespace SnakeGame
 {
     // Structure position to enable arrays for obstacles and foods
@@ -26,13 +27,13 @@ namespace SnakeGame
         {   
             Boolean status = true;
             while(status){
-            //Main menu
+            //  MAIN MENU TO ALLOW USER TO DIRECT THE PROGRAM THROUGH SPECIFIC CHOICES
             Console.WriteLine("Welcome to Snake Game");
             Console.WriteLine("---------------------");
             Console.WriteLine("1.Start game \n2.View scoreboard \n3.Help \n4.Exit");
             string sel = Console.ReadLine();
+            // WHEN 1 IS ENTERED, THE GAME WILL START
             if(sel == "1"){    
-            // start game
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
 
@@ -309,14 +310,14 @@ namespace SnakeGame
                 // pause to allow eyeballs to keep up
                 System.Threading.Thread.Sleep(delayInMillisecs);
             }
-            }else if(sel == "2"){
+            }else if(sel == "2"){ // WHEN 2 IS SELECTED, THE PROGRAM WILL SHOW THE HIGHSCORES OF PLAYERS THAT HAVE PLAYED THE GAME
                 Console.WriteLine("Snake Game Scoreboard Page");
                 Console.WriteLine("--------------------------");
                 string score = File.ReadAllText("score.txt");
                 Console.WriteLine(score);
                 Console.WriteLine("\nPress any key to exit");
                 Console.ReadLine();
-            }else if(sel == "3"){
+            }else if(sel == "3"){ // WHEN 3 IS SELECTED, THE INSTRUCTIONS WILL APPEAR 
                 Console.WriteLine("Snake Game Instruction Page");
                 Console.WriteLine("---------------------------");
                 Console.WriteLine("1. Use 'up', 'down', 'left', 'right' arrow keys to control the snake.");
@@ -327,7 +328,7 @@ namespace SnakeGame
                 Console.WriteLine("6. Have fun and enjoy the game.");
                 Console.WriteLine("\nPress any key to exit");
                 Console.ReadLine();
-            }else if(sel == "4"){
+            }else if(sel == "4"){ // WHEN 4 IS SELECTED, THE CONSOLE CLOSES
                 status = false;
             }
         }
