@@ -22,6 +22,14 @@ namespace SnakeGame
     {
         static void Main(string[] args)
         {
+            Boolean status = true;
+            while(status){
+            //Main menu
+            Console.WriteLine("Welcome to Snake Game");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("1.Start game \n2.View scoreboard \n3.Help \n4.Exit");
+            string sel = Console.ReadLine();
+            if(sel == "1"){    
             // start game
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
@@ -125,11 +133,6 @@ namespace SnakeGame
             {
                 // print directions at top, then restore position
                 // save then restore current color
-
-
-
-            
-
                 ConsoleColor cc = Console.ForegroundColor;
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.SetCursorPosition(0, 0);
@@ -292,7 +295,15 @@ namespace SnakeGame
                 System.Threading.Thread.Sleep(delayInMillisecs);
 
             } while (gameLive == true);
+            }else if(sel == "2"){
+
+            }else if(sel == "3"){
+                
+            }else if(sel == "4"){
+                status = false;
+            }
         }
     }
-    
+    }
 }
+    
