@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 using System.Threading;
+using System.IO;
+
 
 namespace SnakeGame
 {
@@ -21,7 +23,7 @@ namespace SnakeGame
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
             Boolean status = true;
             while(status){
             //Main menu
@@ -130,7 +132,7 @@ namespace SnakeGame
             // delay to slow down the character movement so you can see it
             int delayInMillisecs = 100;
 
-            while(true) // until escape
+            while(gameLive == true) // until escape
             {
                 // print directions at top, then restore position
                 // save then restore current color
@@ -224,6 +226,13 @@ namespace SnakeGame
                     Console.SetCursorPosition(36,13);
                     Console.WriteLine("Your points are: {0}", score);
                     Console.SetCursorPosition(36,14);
+                    Console.WriteLine("Please enter your name: ");
+                    string name = Console.ReadLine();
+                    string fileName = "score.txt";
+                    using(FileStream fs = new FileStream(fileName, FileMode.Append, FileAccess.Write)) using(StreamWriter sw = new StreamWriter(fs)){
+                        sw.WriteLine(name + ": Your score is " + score + "\n");
+                    }
+                    Console.SetCursorPosition(36,15);
                     Console.WriteLine("Press Enter/Escape to Exit");
                     Console.ReadKey();
                     return;
@@ -299,11 +308,12 @@ namespace SnakeGame
 
                 // pause to allow eyeballs to keep up
                 System.Threading.Thread.Sleep(delayInMillisecs);
-
-            } while (gameLive == true);
+            }
             }else if(sel == "2"){
                 Console.WriteLine("Snake Game Scoreboard Page");
                 Console.WriteLine("--------------------------");
+                string score = File.ReadAllText("score.txt");
+                Console.WriteLine(score);
                 Console.WriteLine("\nPress any key to exit");
                 Console.ReadLine();
             }else if(sel == "3"){
