@@ -296,11 +296,20 @@ namespace SnakeGame
 
             } while (gameLive == true);
             }else if(sel == "2"){
-
+                Console.WriteLine("Snake Game Scoreboard Page");
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("\nPress any key to exit");
+                Console.ReadLine();
             }else if(sel == "3"){
                 Console.WriteLine("Snake Game Instruction Page");
                 Console.WriteLine("---------------------------");
-                Console.WriteLine("");
+                Console.WriteLine("1. Use 'up', 'down', 'left', 'right' arrow keys to control the snake.");
+                Console.WriteLine("2. Avoid the obstacles or the body of the snake, if the head of the snake hits either object, you lose the game immediately.");
+                Console.WriteLine("3. Eat the food 'F' to grow the size of the snake, you will also get 100 points from it.");
+                Console.WriteLine("4.The food changes its location randomly every 8 seconds if not eaten, pay attention to the food.");
+                Console.WriteLine("5. Get 1000 points and you win the game.");
+                Console.WriteLine("6. Have fun and enjoy the game.");
+                Console.WriteLine("\nPress any key to exit");
                 Console.ReadLine();
             }else if(sel == "4"){
                 status = false;
