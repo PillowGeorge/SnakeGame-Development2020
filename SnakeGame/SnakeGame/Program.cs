@@ -50,13 +50,14 @@ namespace SnakeGame
 
 
             // clear to color
-            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.Clear();
 
                 //border
 			    int border_x = 79;
 			    int border_y = 24;
                 while(border_x > 0){
+                    Console.ForegroundColor = ConsoleColor.Blue;
 				    Console.SetCursorPosition(border_x, 1);
 				    Console.WriteLine("0");
                     Console.SetCursorPosition(border_x, 24);
@@ -82,7 +83,7 @@ namespace SnakeGame
             };
             foreach (Position obstacle in obstacles)
             {
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.SetCursorPosition(obstacle.col, obstacle.row);
                 Console.Write("||");
             }
@@ -261,7 +262,7 @@ namespace SnakeGame
                         (food.row != obstacle.row && food.col != obstacle.row));
                     obstacles.Add(obstacle);
                     Console.SetCursorPosition(obstacle.col, obstacle.row);
-                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("||");
                 }
                 else
