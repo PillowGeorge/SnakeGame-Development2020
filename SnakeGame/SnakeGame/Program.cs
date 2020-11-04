@@ -298,7 +298,10 @@ namespace SnakeGame
             }else if(sel == "2"){
 
             }else if(sel == "3"){
-                
+                Console.WriteLine("Snake Game Instruction Page");
+                Console.WriteLine("---------------------------");
+                Console.WriteLine("");
+                Console.ReadLine();
             }else if(sel == "4"){
                 status = false;
             }
