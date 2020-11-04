@@ -53,6 +53,7 @@ namespace SnakeGame
             int consoleHeightLimit = 24;
             int lastFoodTime = 0;
             int foodDissapearTime = 8000;
+            int lifecount = 3;
             lastFoodTime = Environment.TickCount;
 			
 
@@ -147,6 +148,8 @@ namespace SnakeGame
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.SetCursorPosition(68, 0);
                 Console.WriteLine("Score:{0}", score);
+                Console.SetCursorPosition(80, 0);
+                Console.WriteLine("Life: " + lifecount);
 
 
                 // see if a key has been pressed
@@ -210,7 +213,10 @@ namespace SnakeGame
 
                 // End the game if the snake make contact with the obstacle or itself.
 				// Only 1 life is given for the player.
-                if (snakeElements.Contains(snakeNewHead) || obstacles.Contains(snakeNewHead))
+                if (snakeElements.Contains(snakeNewHead) || obstacles.Contains(snakeNewHead)){
+                    lifecount -= 1;
+                }
+                if (lifecount == 0)
                 {
                     Console.SetCursorPosition(36,12);
                     Console.ForegroundColor = ConsoleColor.Red;
