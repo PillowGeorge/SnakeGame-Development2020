@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sheng\\Desktop\\Test\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj": {}
+    "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sheng\\Desktop\\Test\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj": {
+    "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sheng\\Desktop\\Test\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
+        "projectUniqueName": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
         "projectName": "SnakeGame",
-        "projectPath": "C:\\Users\\sheng\\Desktop\\Test\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
-        "packagesPath": "C:\\Users\\sheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sheng\\Desktop\\Test\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\obj\\",
+        "projectPath": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
+        "packagesPath": "C:\\Users\\pillo\\.nuget\\packages\\",
+        "outputPath": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sheng\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pillo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -38,6 +38,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[4.6.0-preview8.19405.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

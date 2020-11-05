@@ -5,6 +5,7 @@ using System.Text;
 using System.Collections;
 using System.Threading;
 using System.IO;
+using System.Media;
 
 
 
@@ -25,8 +26,12 @@ namespace SnakeGame
     {
         static void Main(string[] args)
         {   
+            
             Boolean status = true;
             while(status){
+            // PLAYS THE SOUND IN LOOP THROUGHOUT THE GAME
+            SoundPlayer player = new SoundPlayer("theme.wav");
+            player.PlayLooping();
             //  MAIN MENU TO ALLOW USER TO DIRECT THE PROGRAM THROUGH SPECIFIC CHOICES
             Console.WriteLine("Welcome to Snake Game");
             Console.WriteLine("---------------------");

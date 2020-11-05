@@ -50,3 +50,11 @@ C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\De
 C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.dll
 C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.pdb
 C:\Users\sheng\Desktop\Test\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\msys32\home\pillo\SnakeGame-Development2020\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CopyComplete
