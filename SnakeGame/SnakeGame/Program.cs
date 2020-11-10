@@ -263,6 +263,13 @@ namespace SnakeGame
                 Console.Write("*");
                 snakeElements.Enqueue(snakeNewHead);
 
+                Console.SetCursorPosition(snakeNewHead.col, snakeNewHead.row);
+                Console.ForegroundColor = ConsoleColor.Black;
+                if (direction == right) Console.Write(">");
+                if (direction == left) Console.Write("<");
+                if (direction == up) Console.Write("^");
+                if (direction == down) Console.Write("v");
+
                 if (snakeNewHead.col == food.col && snakeNewHead.row == food.row)
                 {
                     // feeding the snake
