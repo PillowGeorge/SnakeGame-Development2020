@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vcl/BpiTcdoTIrXOYqIOjAHMKbwbJKJOvKuDmtApV9crZxp91R/ohI8IQkUw0xAtUz3aBZ/tIzasSnOxxVeuJA==",
+  "dgSpecHash": "zWAZ1Q1I/uI95eHHWAQRNlZfG/sFC3Sq4w5R9tO1MBl3s1bf/DsrlgR2ZrnDDyfQM5Q/zpe6Z64GY3eAW3W69g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sheng\\Desktop\\SnakeGame\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
+  "projectFilePath": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sheng\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0-preview8.19405.3\\microsoft.netcore.platforms.3.0.0-preview8.19405.3.nupkg.sha512",
-    "C:\\Users\\sheng\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0-preview8.19405.3\\microsoft.win32.systemevents.4.6.0-preview8.19405.3.nupkg.sha512",
-    "C:\\Users\\sheng\\.nuget\\packages\\system.drawing.common\\4.6.0-preview8.19405.3\\system.drawing.common.4.6.0-preview8.19405.3.nupkg.sha512",
-    "C:\\Users\\sheng\\.nuget\\packages\\system.windows.extensions\\4.6.0-preview8.19405.3\\system.windows.extensions.4.6.0-preview8.19405.3.nupkg.sha512"
+    "C:\\Users\\pillo\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0-preview8.19405.3\\microsoft.netcore.platforms.3.0.0-preview8.19405.3.nupkg.sha512",
+    "C:\\Users\\pillo\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0-preview8.19405.3\\microsoft.win32.systemevents.4.6.0-preview8.19405.3.nupkg.sha512",
+    "C:\\Users\\pillo\\.nuget\\packages\\system.drawing.common\\4.6.0-preview8.19405.3\\system.drawing.common.4.6.0-preview8.19405.3.nupkg.sha512",
+    "C:\\Users\\pillo\\.nuget\\packages\\system.windows.extensions\\4.6.0-preview8.19405.3\\system.windows.extensions.4.6.0-preview8.19405.3.nupkg.sha512"
   ],
   "logs": []
 }

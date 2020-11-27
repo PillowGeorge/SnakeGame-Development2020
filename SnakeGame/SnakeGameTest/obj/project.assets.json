@@ -5881,23 +5881,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sheng\\.nuget\\packages\\": {},
+    "C:\\Users\\pillo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sheng\\Desktop\\SnakeGame\\SnakeGame-Development2020\\SnakeGame\\SnakeGameTest\\SnakeGameTest.csproj",
+      "projectUniqueName": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGameTest\\SnakeGameTest.csproj",
       "projectName": "SnakeGameTest",
-      "projectPath": "C:\\Users\\sheng\\Desktop\\SnakeGame\\SnakeGame-Development2020\\SnakeGame\\SnakeGameTest\\SnakeGameTest.csproj",
-      "packagesPath": "C:\\Users\\sheng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sheng\\Desktop\\SnakeGame\\SnakeGame-Development2020\\SnakeGame\\SnakeGameTest\\obj\\",
+      "projectPath": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGameTest\\SnakeGameTest.csproj",
+      "packagesPath": "C:\\Users\\pillo\\.nuget\\packages\\",
+      "outputPath": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGameTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5911,8 +5911,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sheng\\Desktop\\SnakeGame\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj": {
-              "projectPath": "C:\\Users\\sheng\\Desktop\\SnakeGame\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj"
+            "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj": {
+              "projectPath": "D:\\msys32\\home\\pillo\\SnakeGame-Development2020\\SnakeGame\\SnakeGame\\SnakeGame.csproj"
             }
           }
         }
